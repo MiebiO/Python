@@ -1,3 +1,4 @@
+#Import random and string libraries
 
 import random
 import string
@@ -6,6 +7,7 @@ import string
 instance_number =int(input('How many instances do you need?\n'))
 dept_name = (str(input('What department is this instance(s) for?\n'))).lower()
 
+#Use lower function in lines 7 and 10 to make sure all entries meet the requirement of being in the Marketing, Accounting or FinOps Department
 if dept_name.lower() == 'marketing' or dept_name == 'accounting' or dept_name == 'finops':
     #Use a for loop to create names based on how many instances were specified
     for num in range (instance_number):
