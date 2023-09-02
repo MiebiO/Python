@@ -5,7 +5,9 @@ print(top_cities[0])
 print(top_cities[-1])
 
 print(top_cities[-5])
-
+print(top_cities[-4])
+print(top_cities[-4:-5])
+print(top_cities[-5:-4])
 print(top_cities[1:])
 
 print(top_cities[:4])
